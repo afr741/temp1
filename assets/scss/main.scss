@@ -67,7 +67,7 @@ input[type=submit]:hover {
 	/*opacity:0;
     animation: pop-in 2.0s ease-out forwards;
     animation-delay: 2.0s; */
-	border-radius: 50%;
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 280px 20px;
@@ -88,7 +88,6 @@ input[type=submit]:hover {
 
 }
 .header {
-
 
 	@media #{$med} {
 
@@ -189,11 +188,13 @@ opacity:0;
 }
 
 .portfolio{
+
 	margin: 0rem auto;
 
 }
 
 .portfolio-piece{
+	background-color: blue;
 
 	padding: 1rem;
 	width:100%;
@@ -277,6 +278,7 @@ div.desc {
 }
 
 .responsive {
+
     padding: 0 6px;
     float: left;
     width: 24.99999%;
@@ -297,7 +299,7 @@ div.desc {
 
 .clearfix:after {
     content: "";
-    display: table;
+    display: table-row;
     clear: both;
 }
 .contact {
